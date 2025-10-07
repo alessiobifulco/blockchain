@@ -1,34 +1,42 @@
-# Analisi dei Primitivi Crittografici nella Tecnologia Blockchain
+# Analysis of Cryptographic Primitives in Blockchain Technology
 
-Progetto per il corso di Crittografia focalizzato sull'analisi dei meccanismi e degli algoritmi crittografici che garantiscono la sicurezza, l'integrità e il non ripudio nelle blockchain.
+**Project for the Cryptography course**, focused on analyzing the cryptographic mechanisms and algorithms that ensure security, integrity, and non-repudiation in blockchain systems.
 
 ---
 
-## Obiettivo del Progetto
+## Project Objective
 
-L'obiettivo di questo progetto è analizzare le fondamenta crittografiche che rendono possibile il funzionamento di una blockchain. Lo studio si concentra sui singoli componenti crittografici, il loro ruolo specifico e come la loro interazione crei un sistema distribuito sicuro e affidabile.
+The goal of this project is to analyze the cryptographic foundations that make blockchain possible.  
+The study focuses on individual cryptographic components, their specific roles, and how their interaction creates a secure and reliable distributed system.
 
-## Concetti Crittografici Analizzati
+---
 
-Il progetto esplora i seguenti pilastri della crittografia applicata alla blockchain:
+## Cryptographic Concepts Analyzed
 
-* **Funzioni di Hash Crittografico (es. SHA-256):**
-    * Si analizza il loro ruolo nel garantire l'immutabilità dei dati. Ogni blocco della catena è legato al precedente tramite l'hash, creando una dipendenza che rende estremamente difficile alterare la cronologia delle transazioni. Vengono inoltre usate per il processo di mining (Proof-of-Work).
+The project explores the following pillars of blockchain cryptography:
 
-* **Crittografia a Chiave Pubblica (Asimmetrica):**
-    * Viene studiato il meccanismo delle coppie di chiavi (pubblica e privata) come base per la creazione dei "wallet". La chiave pubblica funge da indirizzo per ricevere fondi, mentre la chiave privata, mantenuta segreta, è l'unica in grado di autorizzare transazioni.
+- **Cryptographic Hash Functions (e.g., SHA-256):**  
+  - Their role in ensuring data immutability is analyzed. Each block is linked to the previous one through a hash, creating a dependency that makes it extremely difficult to alter transaction history. Hashes are also used in the mining process (Proof-of-Work).  
 
-* **Firme Digitali (es. ECDSA):**
-    * Si approfondisce come le firme digitali vengano utilizzate per autenticare le transazioni. Il proprietario di un wallet firma una transazione con la propria chiave privata, dimostrando in modo matematicamente verificabile di possedere i fondi, senza mai rivelare la chiave stessa.
+- **Public-Key (Asymmetric) Cryptography:**  
+  - The mechanism of key pairs (public and private) is studied as the basis for creating wallets. The public key serves as the address to receive funds, while the private key, kept secret, is the only one capable of authorizing transactions.  
 
-* **Alberi di Merkle (Merkle Trees):**
-    * Viene esaminata la struttura dati ad albero basata su hash che permette di riassumere tutte le transazioni di un blocco in un'unica "impronta" (Merkle Root). Questa tecnica consente una verifica efficiente e sicura dell'inclusione di una transazione in un blocco.
+- **Digital Signatures (e.g., ECDSA):**  
+  - Explains how digital signatures authenticate transactions. The wallet owner signs a transaction with their private key, mathematically proving ownership of the funds without ever revealing the key.  
 
-## Tecnologie di Riferimento
+- **Merkle Trees:**  
+  - Examines the hash-based tree data structure that summarizes all transactions in a block into a single "fingerprint" (Merkle Root). This allows efficient and secure verification of a transaction’s inclusion in a block.  
 
-* **Algoritmi di Hash:** SHA-256 (Bitcoin), Keccak-256 (Ethereum)
-* **Algoritmi di Firma:** ECDSA (Elliptic Curve Digital Signature Algorithm)
-* **Piattaforme Blockchain Analizzate:** Bitcoin, Ethereum
+---
 
-## Contatti
+## Reference Technologies
+
+- **Hash Algorithms:** SHA-256 (Bitcoin), Keccak-256 (Ethereum)  
+- **Signature Algorithms:** ECDSA (Elliptic Curve Digital Signature Algorithm)  
+- **Blockchain Platforms Analyzed:** Bitcoin, Ethereum  
+
+---
+
+## Contatti 
+
 * Alessio Bifulco: `alessio.bifulco@studio.unibo.it`
